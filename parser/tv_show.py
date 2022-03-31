@@ -25,6 +25,7 @@ def get_data(html):
             }
         )
     print(anime)
+    return anime
 
 def parser():
     html = get_html(URL)
